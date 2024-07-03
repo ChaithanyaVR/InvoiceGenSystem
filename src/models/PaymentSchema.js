@@ -8,6 +8,6 @@ const paymentSchema = new mongoose.Schema({
     PaymentMethod: { type: String, maxlength: 50 }
 });
 
-const PaymentSchema = mongoose.model('Payment', paymentSchema);
+const PaymentSchema = mongoose.models.PaymentSchema || mongoose.model('Payment', paymentSchema);
 
 export default PaymentSchema;
