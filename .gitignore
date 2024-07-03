@@ -1,0 +1,27 @@
+# Next.js
+.next/
+out/
+
+# Node.js
+node_modules/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
